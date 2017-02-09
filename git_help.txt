@@ -1,0 +1,54 @@
+github V5.0下载地址：
+https://www.microsoft.com/en-us/download/details.aspx?id=50395
+论坛：
+https://github.com/dahlbyk/posh-git/issues/163
+如不想看到本提示, 更改配置文件增加'Import-Module posh-git -Args $true'.
+
+用法: git [--version] [--help] [-C <path>] [-c name=value]
+           [--exec-path[=<path>]] [--html-path] [--man-path] [--info-path]
+           [-p | --paginate | --no-pager] [--no-replace-objects] [--bare]
+           [--git-dir=<path>] [--work-tree=<path>] [--namespace=<name>]
+           <command> [<args>]
+
+常用命令:
+
+打开一个工作区(详细解说参见: git help tutorial)
+   clone      将知识库复制到新的路径。
+   init       创建空的知识库或将现有的知识库重新初始化
+ 
+日常改动更新(详细解说参见: git help everyday)
+   add        将文件添加到目录中
+   mv         对文件、路径、链接进行移动或重命名
+   reset      将当前HEAD重置为指定状态
+   rm         将文件从工作树和目录中移除
+
+检查历史及状态(详细解说参见: git help revisions)
+   bisect     查找引入错误的提交，二分法
+   grep       将匹配某模式的行输出
+   log        显示提交日志
+   show       显示对象的类型
+   status     显示工作树的状态
+
+成长，标记和调整你的操作历史
+   branch     列出分支列表，或创建/删除分支
+   checkout   切换分支或重新存储工作树文件
+   commit     记录知识库更改
+   diff       显示不同提交之间或提交与工作树之间的差别
+   merge      将两个或多个历史版本融合
+   rebase     申请重新建立基库
+   tag        创建列表，删除或验证一个GPG标记的标签对象
+
+协作(详细解说参见: git help workflows)
+   fetch      从其他库下载对象及参考文献
+   pull       与其他知识库或本地分支进行合并、集成
+   push       更新远程文献以及相关对象
+
+'git help -a' 列出可用(available)命令
+'git help -g' 列出概念引导(guid)
+'git help <command>' 阅读指定的命令
+'git help <concept>' 阅读指定的概念
+
+
+相关词汇：
+tutorial                n. 使用说明书
+repository              n. 知识库
